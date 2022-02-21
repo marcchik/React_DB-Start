@@ -1,0 +1,47 @@
+[33mcommit 6dcea91a592a403821c81ba515dd2bc35137892a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: marcchik <markstal2002@gmail.com>
+Date:   Sat Feb 19 23:34:53 2022 +0300
+
+    Компонент рандомной планеты 2
+
+[33mcommit 9bf04271f7cdf23594839b197c6c0365be2cbcf3[m
+Author: marcchik <markstal2002@gmail.com>
+Date:   Sat Feb 19 23:33:54 2022 +0300
+
+    Компонент рандомной планеты
+
+[33mcommit f8a9c9bcabf0f4361e83b0ad448b720827eab0c8[m
+Author: marcchik <markstal2002@gmail.com>
+Date:   Sat Feb 19 21:18:43 2022 +0300
+
+    Компоненты StarDB
+
+[33mcommit 6eaccfcead616a0a25129d7ab454c0142299e933[m
+Author: marcchik <markstal2002@gmail.com>
+Date:   Sat Feb 19 20:53:33 2022 +0300
+
+    Клиент для API
+
+[33mcommit ee658b5ee5f87ec0cb00723903da306cb947a5db[m
+Author: marcchik <markstal2002@gmail.com>
+Date:   Sat Feb 19 19:58:49 2022 +0300
+
+    Обработка ошибок в Fetch API
+
+[33mcommit 76c8b1c33e5c0e91c78c3e124534e07fbf728e65[m
+Author: marcchik <markstal2002@gmail.com>
+Date:   Sat Feb 19 19:50:08 2022 +0300
+
+    Как работает Fetch API
+
+[33mcommit 703b25efef041991a1ffc83994b318be699e7b36[m
+Author: marcchik <markstal2002@gmail.com>
+Date:   Sat Feb 19 19:00:44 2022 +0300
+
+    start react app
+
+[33mcommit 3de7b1c8620cf45c7f44cdc5397ebd3fb845b9cf[m
+Author: marcchik <markstal2002@gmail.com>
+Date:   Fri Feb 18 17:51:51 2022 +0300
+
+    Initialize project using Create React App
