@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Трансформация данных API" />
+    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="for merge" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,7 +11,15 @@
     <option name="BRANCH" value="9bf04271f7cdf23594839b197c6c0365be2cbcf3" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="mark" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/services/swapi-service.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -158,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645423722050</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="for merge">
+      <created>1645608070787</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645608070787</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +182,11 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="7f1fb092-4ee4-4b23-8a10-ff7ccdf4c072">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -185,6 +205,11 @@
     <MESSAGE value="Компонент рандомной планеты" />
     <MESSAGE value="Компонент рандомной планеты 2" />
     <MESSAGE value="Трансформация данных API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Трансформация данных API" />
+    <MESSAGE value="for merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="for merge" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
