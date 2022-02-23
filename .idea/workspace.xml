@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="for merge" />
+    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Project after merging mark">
+      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/death-star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="9bf04271f7cdf23594839b197c6c0365be2cbcf3" />
+    <option name="BRANCH" value="mark" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -40,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -48,11 +55,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\React\star-db\src\components" />
       <recent name="D:\React\star-db\src\services\components\starship-details" />
       <recent name="D:\React\star-db\src\services\components\random-planet" />
       <recent name="D:\React\star-db\src\services\components\planet-details" />
       <recent name="D:\React\star-db\src\services\components\person-details" />
-      <recent name="D:\React\star-db\src\services\components\item-list" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\React\star-db\src" />
@@ -173,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645608070787</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Project after merging mark">
+      <created>1645608159502</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1645608159502</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +220,8 @@
     <MESSAGE value="Компонент рандомной планеты 2" />
     <MESSAGE value="Трансформация данных API" />
     <MESSAGE value="for merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="for merge" />
+    <MESSAGE value="Project after merging mark" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project after merging mark" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
