@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Project after merging mark">
-      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/death-star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/index.js" afterDir="false" />
+    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Обработка ошибок сети в компоненте">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" afterDir="false" />
     </list>
@@ -187,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645608159502</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Обработка ошибок сети в компоненте">
+      <created>1645609197835</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1645609197836</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +224,8 @@
     <MESSAGE value="Трансформация данных API" />
     <MESSAGE value="for merge" />
     <MESSAGE value="Project after merging mark" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project after merging mark" />
+    <MESSAGE value="Обработка ошибок сети в компоненте" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обработка ошибок сети в компоненте" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
