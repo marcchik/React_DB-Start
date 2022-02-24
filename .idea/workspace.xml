@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Обработка ошибок сети в компоненте">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" afterDir="false" />
-    </list>
+    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Автоматический вывод рандомной планеты" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645609197836</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Автоматический вывод рандомной планеты">
+      <created>1645735834900</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1645735834900</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +229,8 @@
     <MESSAGE value="for merge" />
     <MESSAGE value="Project after merging mark" />
     <MESSAGE value="Обработка ошибок сети в компоненте" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обработка ошибок сети в компоненте" />
+    <MESSAGE value="Автоматический вывод рандомной планеты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Автоматический вывод рандомной планеты" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
