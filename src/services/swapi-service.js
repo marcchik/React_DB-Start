@@ -9,37 +9,36 @@ export default class SwapiService {
             throw new Error(`Could not fetch ${url}` +
                 `, received ${res.status}`)
         }
-
         return await res.json();
     }
 
     async getAllPeople() {
-        const res = await this.getResource(`/people/`)
-        return res.map(this._transformPerson());
+        const res = await this.getResource(`/people/`);
+        return res.results.map(this._transformPerson);
     }
 
     async getPerson(id) {
-        const person = await this.getResource(`/people/${id}`);
+        const person = await this.getResource(`/people/${id}/`);
         return this._transformPerson(person);
     }
 
     async getAllPlanets() {
-        const res = await this.getResource(`/planets/`)
+        const res = await this.getResource(`/planets/`);
         return res.results.map(this._transformPlanet);
     }
 
     async getPlanet(id) {
-        const planet = await this.getResource(`/planets/${id}`)
-        return  this._transformPlanet(planet);
+        const planet = await this.getResource(`/planets/${id}/`);
+        return this._transformPlanet(planet);
     }
 
     async getAllStarships() {
-        const res = await this.getResource(`/starships/`)
-        return res.map(this._transformStarship());
+        const res = await this.getResource(`/starships/`);
+        return res.results.map(this._transformStarship);
     }
 
     async getStarship(id) {
-        const starship = await this.getResource(`/starships/${id}`)
+        const starship = this.getResource(`/starships/${id}/`);
         return this._transformStarship(starship);
     }
 
@@ -55,8 +54,8 @@ export default class SwapiService {
             population: planet.population,
             rotationPeriod: planet.rotation_period,
             diameter: planet.diameter
-        }
-    }
+        };
+    };
 
     _transformStarship = (starship) => {
         return {
@@ -64,11 +63,11 @@ export default class SwapiService {
             name: starship.name,
             model: starship.model,
             manufacturer: starship.manufacturer,
-            costInCredits: starship.cost_in_credits,
+            costInCredits: starship.costInCredits,
             length: starship.length,
             crew: starship.crew,
             passengers: starship.passengers,
-            cargoCapacity: starship.cargo_capacity
+            cargoCapacity: starship.cargoCapacity
         }
     };
 
@@ -77,11 +76,8 @@ export default class SwapiService {
             id: this._extractId(person),
             name: person.name,
             gender: person.gender,
-            birthYear: person.birth_year,
-            eyeColor: person.eye_color
+            birthYear: person.birthYear,
+            eyeColor: person.eyeColor
         }
     }
 }
-
-
-
