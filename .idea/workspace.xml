@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="componentDidUpdate">
+    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="componentDidUpdate на практике">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/person-details/person-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/person-details/person-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/swapi-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/swapi-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +105,7 @@
       <workItem from="1645420073678" duration="3442000" />
       <workItem from="1645423569683" duration="222000" />
       <workItem from="1645424238879" duration="131000" />
-      <workItem from="1645771536821" duration="3132000" />
+      <workItem from="1645771536821" duration="4437000" />
     </task>
     <task id="LOCAL-00001" summary="start react app">
       <created>1645286444743</created>
@@ -224,7 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645739167764</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="componentDidUpdate на практике">
+      <created>1645774706371</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1645774706371</updated>
+    </task>
+    <task id="LOCAL-00019" summary="swapiService bag">
+      <created>1645775187830</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1645775187830</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +279,9 @@
     <MESSAGE value="componentDidMount" />
     <MESSAGE value="componentDidMount на практике" />
     <MESSAGE value="componentDidUpdate" />
-    <option name="LAST_COMMIT_MESSAGE" value="componentDidUpdate" />
+    <MESSAGE value="swapiService bag" />
+    <MESSAGE value="componentDidUpdate на практике" />
+    <option name="LAST_COMMIT_MESSAGE" value="componentDidUpdate на практике" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

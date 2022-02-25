@@ -8,7 +8,7 @@ export default class PersonDetails extends Component {
     swapiService = new SwapiService();
 
     state = {
-        person: null,
+        person: null
     };
 
     componentDidMount() {
@@ -28,9 +28,10 @@ export default class PersonDetails extends Component {
         }
 
         this.swapiService
-            .getPerson((person) => {
+            .getPerson(personId)
+            .then((person) => {
                 this.setState({ person })
-            })
+            });
     }
 
     render() {
