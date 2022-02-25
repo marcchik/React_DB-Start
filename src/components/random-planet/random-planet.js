@@ -5,6 +5,7 @@ import Spinner from '../spinner'
 import ErrorIndicator from '../error-indicator';
 
 import './random-planet.css';
+import {clear} from "@testing-library/user-event/dist/clear";
 
 export default class RandomPlanet extends Component {
 
@@ -17,7 +18,11 @@ export default class RandomPlanet extends Component {
         
     componentDidMount() {
         this.updatePlanet();
-        setInterval(this.updatePlanet, 2000);
+        this.interval = setInterval(this.updatePlanet, 1500);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.interval);
     }
 
     onPlanetLoaded = (planet) => {
