@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Render-функции">
-      <change afterPath="$PROJECT_DIR$/src/components/Row/index.js" afterDir="false" />
+    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Свойства элементы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-list/item-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/people-page/people-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people-page/people-page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +109,7 @@
       <workItem from="1645771536821" duration="6782000" />
       <workItem from="1645792157451" duration="1847000" />
       <workItem from="1646077657729" duration="2099000" />
-      <workItem from="1646112144229" duration="2112000" />
+      <workItem from="1646112144229" duration="3537000" />
     </task>
     <task id="LOCAL-00001" summary="start react app">
       <created>1645286444743</created>
@@ -278,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646113492063</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Свойства элементы">
+      <created>1646114513529</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1646114513529</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +331,20 @@
     <MESSAGE value="componentDidCatch" />
     <MESSAGE value="Использование функций" />
     <MESSAGE value="Render-функции" />
-    <option name="LAST_COMMIT_MESSAGE" value="Render-функции" />
+    <MESSAGE value="Свойства элементы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Свойства элементы" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Row/row.js</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
