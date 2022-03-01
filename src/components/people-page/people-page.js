@@ -6,25 +6,8 @@ import PersonDetails from "../person-details";
 import ErrorIndicator from "../error-indicator";
 import SwapiService from "../../services/swapi-service";
 import Row from "../Row"
+import ErrorBoundary from "../error-boundary";
 
-class ErrorBoundry extends Component {
-
-    state = {
-        hasError: false
-    }
-    componentDidCatch() {
-        this.setState({
-            hasError: true
-        })
-    }
-
-    render() {
-        if (this.state.hasError) {
-            return <ErrorIndicator />;
-        }
-        return this.props.children;
-    }
-}
 
 export default class PeoplePage extends Component {
 
