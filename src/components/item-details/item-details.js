@@ -4,11 +4,12 @@ import './item-details.css';
 import SwapiService from "../../services/swapi-service";
 import ErrorButton from "../error-button";
 
-const Record = ({ field, label }) => {
+
+const Record = ({ item, field, label }) => {
     return (
         <li className="list-group-item">
-            <span className="term">{label}</span>
-            <span>{ field }</span>
+            <span className="term">{ label }</span>
+            <span>{ item[field] }</span>
         </li>
     );
 };
@@ -72,12 +73,9 @@ export default class ItemDetails extends Component {
                     <h4>{name}</h4>
                     <ul className="list-group list-group-flush">
                         {
-                            React.Children
-                                .map(
-                                    this.props.children,
-                                    (child) => {
-                                        return child;
-                                    })
+                            React.Children.map(this.props.children, (child) => {
+                                return React.cloneElement(child, { item });
+                            })
                         }
                     </ul>
                     <ErrorButton />

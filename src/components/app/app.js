@@ -46,7 +46,7 @@ export default class App extends Component {
                 getImageUrl={getPersonImage}>
 
                 <Record field="gender" label="Gender" />
-                <Record field="eyeColor" label="eye Color" />
+                <Record field="eyeColor" label="Eye Color" />
 
             </ItemDetails>
         );
@@ -56,6 +56,10 @@ export default class App extends Component {
                 itemId={5}
                 getData={getPlanet}
                 getImageUrl={getStarshipImage}>
+
+                <Record field="model" label="Model" />
+                <Record field="length" label="Length" />
+                <Record field="costInCredit" label="Cost" />
 
             </ItemDetails>
         );

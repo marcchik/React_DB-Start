@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Рефакторинг компонента">
+    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Работа с props.children">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/item-details/item-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-details/item-details.js" afterDir="false" />
@@ -108,7 +108,7 @@
       <workItem from="1645771536821" duration="6782000" />
       <workItem from="1645792157451" duration="1847000" />
       <workItem from="1646077657729" duration="2099000" />
-      <workItem from="1646112144229" duration="8350000" />
+      <workItem from="1646112144229" duration="9047000" />
     </task>
     <task id="LOCAL-00001" summary="start react app">
       <created>1645286444743</created>
@@ -313,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646228466264</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Работа с props.children">
+      <created>1646229574949</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1646229574949</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +344,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Как работает Fetch API" />
     <MESSAGE value="Обработка ошибок в Fetch API" />
     <MESSAGE value="Клиент для API" />
     <MESSAGE value="Компоненты StarDB" />
@@ -362,7 +368,8 @@
     <MESSAGE value="рефакторинг Children" />
     <MESSAGE value="removed errors" />
     <MESSAGE value="Рефакторинг компонента" />
-    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг компонента" />
+    <MESSAGE value="Работа с props.children" />
+    <option name="LAST_COMMIT_MESSAGE" value="Работа с props.children" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
