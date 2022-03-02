@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="рефакторинг Children">
+    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="removed errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error-boundary/error-boundary.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error-boundry/error-boundry.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error-boundary/error-boundary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error-boundry/error-boundary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error-boundary/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/error-boundry/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Row/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/row/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Row/row.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/row/row.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Row/row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/row/row.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/people-page/people-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people-page/people-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/person-details/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-details/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/person-details/person-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-details/item-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/person-details/person-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-details/item-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/swapi-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/swapi-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +115,7 @@
       <workItem from="1645771536821" duration="6782000" />
       <workItem from="1645792157451" duration="1847000" />
       <workItem from="1646077657729" duration="2099000" />
-      <workItem from="1646112144229" duration="4743000" />
+      <workItem from="1646112144229" duration="7247000" />
     </task>
     <task id="LOCAL-00001" summary="start react app">
       <created>1645286444743</created>
@@ -301,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646121085832</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="removed errors">
+      <created>1646211544310</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1646211544310</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,13 +361,14 @@
     <MESSAGE value="Свойства элементы" />
     <MESSAGE value="Children" />
     <MESSAGE value="рефакторинг Children" />
-    <option name="LAST_COMMIT_MESSAGE" value="рефакторинг Children" />
+    <MESSAGE value="removed errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Row/row.js</url>
+          <url>file://$PROJECT_DIR$/src/components/row/row.js</url>
           <line>3</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
