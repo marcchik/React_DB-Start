@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Клонирование элементво">
-      <change afterPath="$PROJECT_DIR$/src/components/hoc-helpers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hoc-helpers/with-data.js" afterDir="false" />
+    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="омпоненты высшего порядка">
+      <change afterPath="$PROJECT_DIR$/src/components/sw-components/details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sw-components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sw-components/item-lists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/swapi-service-context/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/swapi-service-context/swapi-service-context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-list/item-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +112,8 @@
       <workItem from="1645771536821" duration="6782000" />
       <workItem from="1645792157451" duration="1847000" />
       <workItem from="1646077657729" duration="2099000" />
-      <workItem from="1646112144229" duration="10688000" />
+      <workItem from="1646112144229" duration="11440000" />
+      <workItem from="1646296029734" duration="2061000" />
     </task>
     <task id="LOCAL-00001" summary="start react app">
       <created>1645286444743</created>
@@ -328,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646230459566</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="омпоненты высшего порядка">
+      <created>1646231973103</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1646231973103</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +363,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Клиент для API" />
     <MESSAGE value="Компоненты StarDB" />
     <MESSAGE value="Компонент рандомной планеты" />
     <MESSAGE value="Компонент рандомной планеты 2" />
@@ -377,7 +387,8 @@
     <MESSAGE value="Рефакторинг компонента" />
     <MESSAGE value="Работа с props.children" />
     <MESSAGE value="Клонирование элементво" />
-    <option name="LAST_COMMIT_MESSAGE" value="Клонирование элементво" />
+    <MESSAGE value="омпоненты высшего порядка" />
+    <option name="LAST_COMMIT_MESSAGE" value="омпоненты высшего порядка" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -385,7 +396,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/row/row.js</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
