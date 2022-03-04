@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="fix swapi-service 2">
+    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Обновление контекста">
+      <change afterPath="$PROJECT_DIR$/src/components/pages/people-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/planet-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/starship-page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-details/item-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-details/item-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hoc-helpers/with-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hoc-helpers/with-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/people-page/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/people-page/people-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/people-page/people-page.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +116,7 @@
       <workItem from="1645792157451" duration="1847000" />
       <workItem from="1646077657729" duration="2099000" />
       <workItem from="1646112144229" duration="11440000" />
-      <workItem from="1646296029734" duration="8876000" />
+      <workItem from="1646296029734" duration="11147000" />
     </task>
     <task id="LOCAL-00001" summary="start react app">
       <created>1645286444743</created>
@@ -387,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646383259803</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Обновление контекста">
+      <created>1646384279240</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1646384279240</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +422,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Автоматический вывод рандомной планеты" />
     <MESSAGE value="componentDidMount" />
     <MESSAGE value="componentDidMount на практике" />
     <MESSAGE value="componentDidUpdate" />
@@ -436,7 +446,8 @@
     <MESSAGE value="fix style" />
     <MESSAGE value="fix swapi-service" />
     <MESSAGE value="fix swapi-service 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix swapi-service 2" />
+    <MESSAGE value="Обновление контекста" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновление контекста" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
