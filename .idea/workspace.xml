@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="fix error">
-      <change afterPath="$PROJECT_DIR$/src/services/dummy-swapi-service.js" afterDir="false" />
+    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="fix swapi-service 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-details/item-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-details/item-details.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +112,7 @@
       <workItem from="1645792157451" duration="1847000" />
       <workItem from="1646077657729" duration="2099000" />
       <workItem from="1646112144229" duration="11440000" />
-      <workItem from="1646296029734" duration="6942000" />
+      <workItem from="1646296029734" duration="8876000" />
     </task>
     <task id="LOCAL-00001" summary="start react app">
       <created>1645286444743</created>
@@ -364,7 +366,28 @@
       <option name="project" value="LOCAL" />
       <updated>1646379163001</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="fix style">
+      <created>1646380343028</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1646380343028</updated>
+    </task>
+    <task id="LOCAL-00038" summary="fix swapi-service">
+      <created>1646383105612</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1646383105612</updated>
+    </task>
+    <task id="LOCAL-00039" summary="fix swapi-service 2">
+      <created>1646383259803</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1646383259803</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,9 +411,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="for merge" />
-    <MESSAGE value="Project after merging mark" />
-    <MESSAGE value="Обработка ошибок сети в компоненте" />
     <MESSAGE value="Автоматический вывод рандомной планеты" />
     <MESSAGE value="componentDidMount" />
     <MESSAGE value="componentDidMount на практике" />
@@ -413,7 +433,10 @@
     <MESSAGE value="Использоывние НОС для работы с контекстом" />
     <MESSAGE value="Трансормация props в компонентах высшего порядка" />
     <MESSAGE value="fix error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix error" />
+    <MESSAGE value="fix style" />
+    <MESSAGE value="fix swapi-service" />
+    <MESSAGE value="fix swapi-service 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix swapi-service 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
