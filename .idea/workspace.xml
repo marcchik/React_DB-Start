@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="омпоненты высшего порядка">
-      <change afterPath="$PROJECT_DIR$/src/components/sw-components/details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sw-components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sw-components/item-lists.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/swapi-service-context/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/swapi-service-context/swapi-service-context.js" afterDir="false" />
+    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Испрльзование Context API">
+      <change afterPath="$PROJECT_DIR$/src/components/sw-components/planet-details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/planet-details/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hoc-helpers/with-swapi-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/planet-details/planet-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sw-components/person-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/planet-details/planet-details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/starship-details/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/starship-details/starship-details.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/starship-details/starship-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sw-components/starship-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sw-components/details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sw-components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sw-components/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +71,7 @@
       <recent name="D:\React\star-db\src\services\components\person-details" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\React\star-db\src\components\sw-components" />
       <recent name="D:\React\star-db\src\components" />
       <recent name="D:\React\star-db\src" />
     </key>
@@ -113,7 +117,7 @@
       <workItem from="1645792157451" duration="1847000" />
       <workItem from="1646077657729" duration="2099000" />
       <workItem from="1646112144229" duration="11440000" />
-      <workItem from="1646296029734" duration="2061000" />
+      <workItem from="1646296029734" duration="3832000" />
     </task>
     <task id="LOCAL-00001" summary="start react app">
       <created>1645286444743</created>
@@ -339,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646231973103</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Испрльзование Context API">
+      <created>1646298543617</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1646298543617</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +374,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Компоненты StarDB" />
     <MESSAGE value="Компонент рандомной планеты" />
     <MESSAGE value="Компонент рандомной планеты 2" />
     <MESSAGE value="Трансформация данных API" />
@@ -388,7 +398,8 @@
     <MESSAGE value="Работа с props.children" />
     <MESSAGE value="Клонирование элементво" />
     <MESSAGE value="омпоненты высшего порядка" />
-    <option name="LAST_COMMIT_MESSAGE" value="омпоненты высшего порядка" />
+    <MESSAGE value="Испрльзование Context API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Испрльзование Context API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
