@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Функция compose()">
+    <list default="true" id="e94128a1-c9a7-454e-803c-00d0b6a60425" name="Changes" comment="Свойство defaultProps">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-list/item-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1646077657729" duration="2099000" />
       <workItem from="1646112144229" duration="11440000" />
       <workItem from="1646296029734" duration="15687000" />
-      <workItem from="1646899466058" duration="1583000" />
+      <workItem from="1646899466058" duration="4689000" />
     </task>
     <task id="LOCAL-00001" summary="start react app">
       <created>1645286444743</created>
@@ -406,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646408708028</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Свойство defaultProps">
+      <created>1646945536760</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1646945536760</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +437,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="componentDidUpdate" />
     <MESSAGE value="swapiService bag" />
     <MESSAGE value="componentDidUpdate на практике" />
     <MESSAGE value="componentWillUnmount" />
@@ -455,7 +461,8 @@
     <MESSAGE value="Обновление контекста" />
     <MESSAGE value="Рефакторинг: делаем код чище" />
     <MESSAGE value="Функция compose()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Функция compose()" />
+    <MESSAGE value="Свойство defaultProps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Свойство defaultProps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

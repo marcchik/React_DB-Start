@@ -10,7 +10,19 @@ import {clear} from "@testing-library/user-event/dist/clear";
 export default class RandomPlanet extends Component {
 
     static defaultProps = {
-        updateInterval: 1000
+        updateInterval: 5000
+    }
+
+    static propTypes = {
+        updateInterval: (props, propName, componentName) => {
+            const value = props[propName];
+
+            if (typeof  value === 'number' && !isNaN(value)) {
+                return null;
+            }
+
+            return new TypeError(`${componentName}: ${propName} must be number`)
+        }
     }
 
     swapiService = new SwapiService();
